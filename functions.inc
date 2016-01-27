@@ -1669,6 +1669,7 @@ function MAPS_renderMarker ($marker, $primaryColor, $strokecolor, $label, $label
     //$category is not in use maps plugin v1.3
 	
 	$mkid = $marker['mkid'];
+    $marker['name'] = stripslashes($marker['name']);
 	
 	if (!MAPS_checkMarkervalidity($marker)) return;
     
