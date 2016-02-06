@@ -1,5 +1,7 @@
+{# begin {templatelocation} #}
+
 <div id="overlay_form">
-	<form name="overlay_edit" action="{site_url}/admin/plugins/maps/overlay_edit.php" method="POST"  enctype="multipart/form-data">
+	<form class="uk-form" name="overlay_edit" action="{site_url}/admin/plugins/maps/overlay_edit.php" method="POST"  enctype="multipart/form-data">
 		<fieldset style="margin-top: 10px;padding:10px;">
 		<legend><b>{informations}</b></legend>
 			<div id="informations">
@@ -38,3 +40,5 @@
 		</div>
 	</form>
 </div>
+
+{# end {templatelocation} #}

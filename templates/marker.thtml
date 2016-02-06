@@ -1,3 +1,5 @@
+{# begin {templatelocation} #}
+
 <div style="padding-top:15px;">
 <h1>{name}</h1>
 
@@ -45,3 +47,4 @@
 
 </div>
 
+{# end {templatelocation} #}
