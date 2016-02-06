@@ -1,5 +1,7 @@
+{# begin {templatelocation} #}
+
 <div>
-	<form action="#" onsubmit="codeAddress(); return false">
+	<form class="uk-form" action="#" onsubmit="codeAddress(); return false">
 	  <p>{edit_marker_text}        
 	  </p>
 	  <p>
@@ -125,3 +127,5 @@
 		</div>
 	</form>
 </div>
+
+{# end {templatelocation} #}

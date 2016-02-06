@@ -1,3 +1,5 @@
+{# begin {templatelocation} #}
+
 <div class="user_menu">
  <a href="{site_url}/admin/plugins/maps/index.php">{admin_home}</a> | 
  <a href="{site_url}/admin/plugins/maps/markers.php">{markers}</a> |
@@ -11,3 +13,5 @@
  <input type="hidden" name="conf_group" value="maps"></form>
 
 </div>
+
+{# end {templatelocation} #}
